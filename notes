@@ -1,0 +1,45 @@
+//React is a library; most popular; used by netlfix and instagram today
+//framework ke andar khud ki libraries and functionality of codes hota h but library me bss functionality aur library nhi h
+//DOM :  document object model : representtaion of html webpage
+/*React uses react virtual dom which updates the webpage instantly without fully reloading it 
+JSX - jsx into javascript is done by babel
+jsx - javascript inside html
+
+RULES ABOUT JSX : 
+ => cant return more than one html elemenet at once but we can wrap element in parent tag.
+ 
+ eg : class Test extends React.compnent {
+  render(){
+    return {
+      <div>
+       <p>hello</p>
+       <h1>hie</h1> 
+      </div>
+    };
+  }
+ }
+
+ => use jsx inside for loops, if-else.
+
+ eg : if(condition==true){
+      return <p>kyu ni hori padhayi</p>
+      } 
+      else {
+      return <h1>idhar dekho</h1>
+      }
+
+=> class becomes "className" in jsx.
+=> html tags must be closed.*/
+
+// const example = () => {
+//  return (<h1>I am functional component</h1>);
+// };
+
+//function Example() {
+// return(<h1>also a functional component</h1>);
+// };
+
+//both return a react element
+
+//class is a stateful component 
+//mehtod ot incoke a functional component : <ExampleComponent/>
